@@ -19,7 +19,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 # --- PASOS DE COPIA DE LA APLICACIÓN ---
 # 6. Copiamos los archivos de la aplicación
 COPY nayhely.py .
-COPY nayhelyvalle.yml .
+#COPY nayhelyvalle.yml .
 
 # 7. Comando por defecto al ejecutar el contenedor
 CMD ["python", "nayhely.py"]
