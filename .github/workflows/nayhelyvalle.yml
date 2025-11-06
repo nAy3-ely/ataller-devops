@@ -46,4 +46,4 @@ jobs:
       uses: docker/build-push-action@v6
       with:
         push: true
-        tags: ghcr.io/nAy3-ely/ataller-devops:1.0.0 
+        tags: ghcr.io/nAy3-ely/ataller-devops | toLower :1.0.0 

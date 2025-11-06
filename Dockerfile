@@ -11,7 +11,7 @@ WORKDIR /app
 
 # --- PASOS DE INSTALACIÓN DE DEPENDENCIAS ---
 # 4. Copiamos el archivo de dependencias
-COPY requirements.txt .
+#COPY requirements.txt .
 
 # 5. Instalamos las dependencias. ¡Esto instalará Flask!
 RUN pip install --no-cache-dir -r requirements.txt
